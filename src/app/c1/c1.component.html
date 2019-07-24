@@ -1,0 +1,8 @@
+<div class="container">
+
+    <br><br>
+    <button class="btn btn-primary" (click)="removeUser()">Completed</button>
+    <br><br>
+    <app-c2 *ngFor=" let user of users" [user]="user"></app-c2>
+
+</div>
